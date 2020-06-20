@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36E9D54682787190FFD284E8 /* Pods_Swift5_RemotePush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A258F7F9ABFF49D328822978 /* Pods_Swift5_RemotePush.framework */; };
+		403EACD6DE460EE0FCCEA41D /* Pods_Swift5_RemotePushTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3B5F620AADE03BBC967DF5 /* Pods_Swift5_RemotePushTests.framework */; };
+		5CD87A72CF7384C07687ADAA /* Pods_Swift5_RemotePush_Swift5_RemotePushUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469CF23BA513148F2433B0E7 /* Pods_Swift5_RemotePush_Swift5_RemotePushUITests.framework */; };
 		E718F203249DCD2E00685D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718F202249DCD2E00685D59 /* AppDelegate.swift */; };
 		E718F205249DCD2E00685D59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718F204249DCD2E00685D59 /* SceneDelegate.swift */; };
 		E718F207249DCD2E00685D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718F206249DCD2E00685D59 /* ViewController.swift */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16BAC2822BEB261DF6880229 /* Pods-Swift5 RemotePush-Swift5 RemotePushUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 RemotePush-Swift5 RemotePushUITests.debug.xcconfig"; path = "Target Support Files/Pods-Swift5 RemotePush-Swift5 RemotePushUITests/Pods-Swift5 RemotePush-Swift5 RemotePushUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BCD7305E9E3F3EE235357CF /* Pods-Swift5 RemotePush-Swift5 RemotePushUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 RemotePush-Swift5 RemotePushUITests.release.xcconfig"; path = "Target Support Files/Pods-Swift5 RemotePush-Swift5 RemotePushUITests/Pods-Swift5 RemotePush-Swift5 RemotePushUITests.release.xcconfig"; sourceTree = "<group>"; };
+		469CF23BA513148F2433B0E7 /* Pods_Swift5_RemotePush_Swift5_RemotePushUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5_RemotePush_Swift5_RemotePushUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B5F620AADE03BBC967DF5 /* Pods_Swift5_RemotePushTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5_RemotePushTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E5671A9508EC5F238C1D34 /* Pods-Swift5 RemotePush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 RemotePush.release.xcconfig"; path = "Target Support Files/Pods-Swift5 RemotePush/Pods-Swift5 RemotePush.release.xcconfig"; sourceTree = "<group>"; };
+		8BA6FDCAEC7C0EFA7D26A692 /* Pods-Swift5 RemotePushTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 RemotePushTests.debug.xcconfig"; path = "Target Support Files/Pods-Swift5 RemotePushTests/Pods-Swift5 RemotePushTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91012E4A866863ADC80CE64B /* Pods-Swift5 RemotePushTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 RemotePushTests.release.xcconfig"; path = "Target Support Files/Pods-Swift5 RemotePushTests/Pods-Swift5 RemotePushTests.release.xcconfig"; sourceTree = "<group>"; };
+		A258F7F9ABFF49D328822978 /* Pods_Swift5_RemotePush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5_RemotePush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C392A58090321441E545CA53 /* Pods-Swift5 RemotePush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 RemotePush.debug.xcconfig"; path = "Target Support Files/Pods-Swift5 RemotePush/Pods-Swift5 RemotePush.debug.xcconfig"; sourceTree = "<group>"; };
 		E718F1FF249DCD2E00685D59 /* Swift5 RemotePush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift5 RemotePush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E718F202249DCD2E00685D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E718F204249DCD2E00685D59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E9D54682787190FFD284E8 /* Pods_Swift5_RemotePush.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403EACD6DE460EE0FCCEA41D /* Pods_Swift5_RemotePushTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD87A72CF7384C07687ADAA /* Pods_Swift5_RemotePush_Swift5_RemotePushUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E609E238FEDB356CF3D23B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C392A58090321441E545CA53 /* Pods-Swift5 RemotePush.debug.xcconfig */,
+				84E5671A9508EC5F238C1D34 /* Pods-Swift5 RemotePush.release.xcconfig */,
+				16BAC2822BEB261DF6880229 /* Pods-Swift5 RemotePush-Swift5 RemotePushUITests.debug.xcconfig */,
+				2BCD7305E9E3F3EE235357CF /* Pods-Swift5 RemotePush-Swift5 RemotePushUITests.release.xcconfig */,
+				8BA6FDCAEC7C0EFA7D26A692 /* Pods-Swift5 RemotePushTests.debug.xcconfig */,
+				91012E4A866863ADC80CE64B /* Pods-Swift5 RemotePushTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6BB1D8E3FA208C67EDC9A67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A258F7F9ABFF49D328822978 /* Pods_Swift5_RemotePush.framework */,
+				469CF23BA513148F2433B0E7 /* Pods_Swift5_RemotePush_Swift5_RemotePushUITests.framework */,
+				7E3B5F620AADE03BBC967DF5 /* Pods_Swift5_RemotePushTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E718F1F6249DCD2E00685D59 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				E718F218249DCD3300685D59 /* Swift5 RemotePushTests */,
 				E718F223249DCD3300685D59 /* Swift5 RemotePushUITests */,
 				E718F200249DCD2E00685D59 /* Products */,
+				6E609E238FEDB356CF3D23B4 /* Pods */,
+				C6BB1D8E3FA208C67EDC9A67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E718F229249DCD3300685D59 /* Build configuration list for PBXNativeTarget "Swift5 RemotePush" */;
 			buildPhases = (
+				634A42E0B7086EBE3BB062E5 /* [CP] Check Pods Manifest.lock */,
 				E718F1FB249DCD2E00685D59 /* Sources */,
 				E718F1FC249DCD2E00685D59 /* Frameworks */,
 				E718F1FD249DCD2E00685D59 /* Resources */,
+				37A920E631FD16CD10AFDEF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E718F22C249DCD3300685D59 /* Build configuration list for PBXNativeTarget "Swift5 RemotePushTests" */;
 			buildPhases = (
+				C66AA6F3F45DB15A4794F7DA /* [CP] Check Pods Manifest.lock */,
 				E718F211249DCD3300685D59 /* Sources */,
 				E718F212249DCD3300685D59 /* Frameworks */,
 				E718F213249DCD3300685D59 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E718F22F249DCD3300685D59 /* Build configuration list for PBXNativeTarget "Swift5 RemotePushUITests" */;
 			buildPhases = (
+				6C6A35D771EED65327CABB04 /* [CP] Check Pods Manifest.lock */,
 				E718F21C249DCD3300685D59 /* Sources */,
 				E718F21D249DCD3300685D59 /* Frameworks */,
 				E718F21E249DCD3300685D59 /* Resources */,
+				83217C727ED94A9BAC2F95E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A920E631FD16CD10AFDEF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5 RemotePush/Pods-Swift5 RemotePush-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5 RemotePush/Pods-Swift5 RemotePush-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5 RemotePush/Pods-Swift5 RemotePush-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		634A42E0B7086EBE3BB062E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5 RemotePush-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6A35D771EED65327CABB04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5 RemotePush-Swift5 RemotePushUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83217C727ED94A9BAC2F95E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5 RemotePush-Swift5 RemotePushUITests/Pods-Swift5 RemotePush-Swift5 RemotePushUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5 RemotePush-Swift5 RemotePushUITests/Pods-Swift5 RemotePush-Swift5 RemotePushUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5 RemotePush-Swift5 RemotePushUITests/Pods-Swift5 RemotePush-Swift5 RemotePushUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66AA6F3F45DB15A4794F7DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5 RemotePushTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E718F1FB249DCD2E00685D59 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		E718F22A249DCD3300685D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C392A58090321441E545CA53 /* Pods-Swift5 RemotePush.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +599,7 @@
 		};
 		E718F22B249DCD3300685D59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84E5671A9508EC5F238C1D34 /* Pods-Swift5 RemotePush.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +617,7 @@
 		};
 		E718F22D249DCD3300685D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA6FDCAEC7C0EFA7D26A692 /* Pods-Swift5 RemotePushTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +639,7 @@
 		};
 		E718F22E249DCD3300685D59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91012E4A866863ADC80CE64B /* Pods-Swift5 RemotePushTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		E718F230249DCD3300685D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BAC2822BEB261DF6880229 /* Pods-Swift5 RemotePush-Swift5 RemotePushUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		E718F231249DCD3300685D59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BCD7305E9E3F3EE235357CF /* Pods-Swift5 RemotePush-Swift5 RemotePushUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
