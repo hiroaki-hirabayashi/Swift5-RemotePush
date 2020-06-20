@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		E718F20F249DCD3300685D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E718F20D249DCD3300685D59 /* LaunchScreen.storyboard */; };
 		E718F21A249DCD3300685D59 /* Swift5_RemotePushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718F219249DCD3300685D59 /* Swift5_RemotePushTests.swift */; };
 		E718F225249DCD3300685D59 /* Swift5_RemotePushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718F224249DCD3300685D59 /* Swift5_RemotePushUITests.swift */; };
+		E73BCF73249DD2850021BC37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E73BCF72249DD2850021BC37 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		E718F220249DCD3300685D59 /* Swift5 RemotePushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift5 RemotePushUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E718F224249DCD3300685D59 /* Swift5_RemotePushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift5_RemotePushUITests.swift; sourceTree = "<group>"; };
 		E718F226249DCD3300685D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73BCF72249DD2850021BC37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E73BCF74249DD5ED0021BC37 /* Swift5 RemotePush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Swift5 RemotePush.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +104,6 @@
 				8BA6FDCAEC7C0EFA7D26A692 /* Pods-Swift5 RemotePushTests.debug.xcconfig */,
 				91012E4A866863ADC80CE64B /* Pods-Swift5 RemotePushTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +142,7 @@
 		E718F201249DCD2E00685D59 /* Swift5 RemotePush */ = {
 			isa = PBXGroup;
 			children = (
+				E73BCF74249DD5ED0021BC37 /* Swift5 RemotePush.entitlements */,
 				E718F202249DCD2E00685D59 /* AppDelegate.swift */,
 				E718F204249DCD2E00685D59 /* SceneDelegate.swift */,
 				E718F206249DCD2E00685D59 /* ViewController.swift */,
@@ -147,6 +150,7 @@
 				E718F20B249DCD3300685D59 /* Assets.xcassets */,
 				E718F20D249DCD3300685D59 /* LaunchScreen.storyboard */,
 				E718F210249DCD3300685D59 /* Info.plist */,
+				E73BCF72249DD2850021BC37 /* GoogleService-Info.plist */,
 			);
 			path = "Swift5 RemotePush";
 			sourceTree = "<group>";
@@ -279,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E718F20F249DCD3300685D59 /* LaunchScreen.storyboard in Resources */,
+				E73BCF73249DD2850021BC37 /* GoogleService-Info.plist in Resources */,
 				E718F20C249DCD3300685D59 /* Assets.xcassets in Resources */,
 				E718F20A249DCD2E00685D59 /* Main.storyboard in Resources */,
 			);
@@ -584,6 +589,7 @@
 			baseConfigurationReference = C392A58090321441E545CA53 /* Pods-Swift5 RemotePush.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Swift5 RemotePush/Swift5 RemotePush.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Swift5 RemotePush/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +608,7 @@
 			baseConfigurationReference = 84E5671A9508EC5F238C1D34 /* Pods-Swift5 RemotePush.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Swift5 RemotePush/Swift5 RemotePush.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Swift5 RemotePush/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
